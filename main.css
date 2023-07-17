@@ -1,0 +1,75 @@
+div#outer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px; 
+}
+
+body {
+  display: grid;
+  background-color: #E6E6FA;
+}
+
+ul {
+  box-shadow: 0 0 2vw #000000;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 1vw 2vw;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #E6E6FA;
+  color: #000000;
+}
+
+li a:hover:not(.active) {
+  background-color: #E6E6FA;
+  color: #000000;
+}
+
+h1,
+h2
+{
+  font-family: "Lucida Handwriting", cursive;
+  color: black;
+  text-align: center;
+}
+
+p,
+h3
+{
+  font-family: "Lucida Handwriting", cursive;
+  color: white;
+  text-align: center;
+}
+
+
+
+header {
+  background-image: url("Lany's Spa.png");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  text-align: center;
+  color: white;
+}
+
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    
+}
